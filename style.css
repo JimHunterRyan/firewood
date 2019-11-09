@@ -1,0 +1,95 @@
+#header-img{
+	width: 3vw;
+	height: auto;
+	flex-grow:1;
+	max-width:5%;
+
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: tan;
+  }
+}
+
+h1{
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	flex-grow:1;
+	
+}
+h2{
+	text-align: center;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	flex-grow:1;
+
+}
+h3{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	flex-grow:1;
+
+}
+#header{
+	display: flex;
+	margin-bottom: 60px;
+	align-items: center;
+	position: fixed;
+	width: 100vw;
+	height: 15vh;
+	background-color: tan;
+	border-bottom: solid brown;
+	border-width: 5px;
+	top:0px;
+	left: 0px;
+	
+	
+}
+main{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+	
+}
+a{
+  text-decoration: none!important;
+  color: brown;
+}
+body{
+	color: brown;
+	text-align: center;
+	background-color: #ffffe6;
+
+}
+#video{
+	text-align: center;
+	padding-top: 200px;
+	
+}
+nav{
+	display: inline-flex;
+	justify-content: flex-end;
+	
+
+}
+nav-link{
+	padding:10px;
+
+}
+form{
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+
+}
+#flexContainer{
+	display: flex;
+	justify-content: space-around;
+}
+.flexChild{
+	margin-top: 50px;
+	border: solid brown;
+	border-width: 5px;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: tan;
+}
