@@ -59,6 +59,8 @@ body{
 	color: brown;
 	text-align: center;
 	background-color: #ffffe6;
+	padding: 0;
+	margin: 0;
 
 }
 #video{
